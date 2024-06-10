@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homePage</title>
+    <link rel="game.html" href="../html pages/game.html">
+    <link rel="game.html" href="../html pages/gameError.html">
+    <link rel="game.html" href="../html pages/gameError2.html">
+    <link rel="game.html" href="../html pages/gameError3.html">
+    <link rel="logIn.html" href="../html pages/logIn.html">
+    <link rel="stylesheet" href="../css pages/homePage.css">
+</head>
+<body>
+
+    <h1>
+        Hi!!<br>We are so happy to invite you play our special games!<br>let's start!!
+    </h1>
+    <div id="information">
+        <label for="Username">Username</label><br><input type="text" id="user" name="user" required><br><br>
+        <label for="password">Password</label><br>
+            <input type="password" id="password" name="password"pattern="[0-9]{8}" title="must contain six numbers code">
+            <br>
+
+  <input type="button" value="Enter" class="button" id="Enter" onclick="checkUser()"> 
+</div>
+    
+    
+   <footer>
+       <img src="../../media/lodo.PNG" >
+    <p> This site was built by Sara Daum.<br>I am happy to present experiential and enjoyable content to your children.
+        <br>We will be happy to serve you on additional sites from the creator of Sara's Sites.
+    </p>
+</footer>
+<script src="../javaScript pages/homePage.js"></script>
+</body>
+</html>

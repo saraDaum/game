@@ -1,0 +1,71 @@
+body{
+    background-image: url(../../media/back.jpg);
+   
+}
+h1{
+    margin-top:80px;
+    text-align: center;
+    color: white;
+    font-family: Disko, Asenine Wide, Batang;
+    font-size: 3.5em;
+}
+#information{
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+input{
+    margin-left: auto!important;
+    margin-right:auto!important ;
+    height: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+input:focus{
+    background-color: rgb(10, 1, 10);
+    color: white;
+}
+
+
+#Enter:hover{
+    background-color: rgb(253, 249, 249);
+    color: rgb(14, 13, 13);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#Enter{
+    margin-top: 40px;
+    height:25px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: Cooper rgb(248, 248, 248), Asenine Wide, Batang;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    color:rgb(252, 248, 250); 
+    border-color: black 2px solid;
+    font-size: 2em;
+    font-family: Bodoni MT ,Bernard MT Condensed;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: auto;
+    background-color: rgba(0, 0, 0, 0.527);
+    margin-top: 150px;
+    bottom: 0px;
+    padding:5px;
+    width: 100%;
+    
+  
+}
+footer img{
+    height:100px;
+    width: 100px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+
+}

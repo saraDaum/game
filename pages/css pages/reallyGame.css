@@ -1,0 +1,171 @@
+body{
+    background-image: url(../../media/back.jpg);
+    height: vh;
+    width: vw;
+}
+
+#gameBoard{
+    display:flex;
+    height: auto;
+    width: 100%;
+    }
+#results{
+    color: rgb(56, 55, 55);  
+    height: 300px;
+    width: 30%;
+    position: fixed;
+    right: 5px;
+    display: inline-block;
+    margin-right: 0px;
+    
+}
+#allCircles{
+    display: grid;
+    grid-template-columns: 4 ;
+    grid-template-rows: 8;
+    display: inline-block;
+
+
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    border-radius:40px ;
+    border: white 4px solid;
+    background-color: rgb(247, 240, 245,0.4);
+    height: 80px;
+    width: 80px;
+
+}
+
+#row1{
+    display:flex;
+    flex-direction: row;
+  
+}
+.colors{
+    height:90px;
+    width: 100px; 
+    border-radius:50% ;
+   
+}
+
+select{
+    border-radius:50% ;
+    height:200px;
+    width: 200px;
+    margin-left: -4px;
+    margin-top:-3px;
+    background-color: rgb(247, 240, 245,0.2);
+    text-align: center;
+}
+[value="yellow"], .yellow{
+    background-color: yellow;
+}
+[value="red"], .red{
+    background-color: red;
+}
+[value= "blue"], .blue{
+    background-color: blue;
+}
+[value="green"], .green{
+    background-color: green;
+}
+[value="pink"], .pink{
+    background-color:pink;
+}
+[value="purple"], .purple{
+    background-color: purple;
+}
+[value="white"], .white, [value="empty"]{
+    background-color: white;
+}
+
+ 
+
+
+.ball{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    margin: 10px
+
+}
+
+.smallball{
+    width: 15px;
+    height: 15px;
+    border-radius:50% ;
+    margin: 5px
+}
+.row1{
+    display:flex;
+    flex-direction: row;
+}
+  
+#continue{
+   
+    height:20px ;
+    width: 70px!important;
+    display: none
+    
+}
+
+#continue.show , #modal.show{
+    display: block;
+}
+
+#continue:hover{
+    background-color: darkgrey;
+    color: white;
+}
+.exactMatches{
+    background-color: white;
+}
+.unexactMatches{
+    background-color: red;
+}
+footer{
+    color:rgb(252, 248, 250); 
+    border-color: black 2px solid;
+    font-size: 2em;
+    font-family: Bodoni MT ,Bernard MT Condensed;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: auto;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+}
+footer img{
+    height:100px;
+    width: 100px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+
+}
+
+#modal{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.493);
+    z-index: 1000;
+    display: none
+}
+
+#modal #message{
+    background-color: rgba(255, 255, 255, 0.603);
+    color:black;
+    margin-top: 100px;
+    font-family: Disko, Asenine Wide, Batang;
+    font-size: 5em;
+    text-align: center;
+    
+}

@@ -1,0 +1,24 @@
+body{
+    background-color: rgba(88, 75, 84, 0.63);
+}
+#instructions{
+    margin-top:80px;
+    text-align: center;
+    color: white;
+    font-family: Bodoni MT ,Bernard MT Condensed;
+    font-size: 1.5em;
+   
+   
+}
+   
+a input{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+  
+  
+}
+a input:hover{
+    background-color: rgba(43, 2, 29, 0.932);
+    color: rgb(247, 245, 246);
+}
